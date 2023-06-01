@@ -13,6 +13,7 @@ namespace Accounting.DataLayer.Repositories
 
         //Get All Customer
         List<Customer> GetAllCustomers();
+        IEnumerable<Customer> GetCustomersByFilter(string parameter);
 
         //Get  Customer By id
         Customer GetCustomerById(int customerId);
