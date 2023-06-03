@@ -18,8 +18,9 @@ namespace Accounting.DataLayer.Services
 
         public List<Customer> GetAllCustomers()
         {
-            return db.Customers.ToList();
+                return db.Customers.ToList();
         }
+
         public Customer GetCustomerById(int customerId)
         {
             return db.Customers.Find(customerId);
@@ -82,11 +83,7 @@ namespace Accounting.DataLayer.Services
 
     
 
-        public void Save()
-        {
-            db.SaveChanges();
-        }
-
+       
         public IEnumerable<Customer> GetCustomersByFilter(string parameter)
         {
             return db.Customers.Where(c => c.FullName.Contains(parameter) || c.Email.Contains(parameter) || c.Mobile.Contains(parameter)).ToList();

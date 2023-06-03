@@ -59,6 +59,7 @@
             this.toolStrip1.Size = new System.Drawing.Size(584, 38);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
+            this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
             // 
             // btnAddNewCustomer
             // 
@@ -68,6 +69,7 @@
             this.btnAddNewCustomer.Size = new System.Drawing.Size(70, 35);
             this.btnAddNewCustomer.Text = "شخص جدید";
             this.btnAddNewCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnAddNewCustomer.Click += new System.EventHandler(this.btnAddNewCustomer_Click);
             // 
             // btnEditCustomer
             // 
@@ -86,6 +88,7 @@
             this.btnDeleteCustomer.Size = new System.Drawing.Size(72, 35);
             this.btnDeleteCustomer.Text = "حذف شخص";
             this.btnDeleteCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnDeleteCustomer.Click += new System.EventHandler(this.btnDeleteCustomer_Click);
             // 
             // btnRefreshCustomer
             // 
