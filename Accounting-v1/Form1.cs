@@ -22,5 +22,11 @@ namespace Accounting_v1
             frmCustomers frmCustomers = new frmCustomers();
             frmCustomers.ShowDialog();
         }
+
+        private void movadianBtnFrm_Click(object sender, EventArgs e)
+        {
+            MovadianFrm frmMovaidan = new MovadianFrm();
+            frmMovaidan.ShowDialog();
+        }
     }
 }

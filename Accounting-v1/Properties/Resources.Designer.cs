@@ -113,9 +113,19 @@ namespace Accounting_v1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cash_money {
+        internal static System.Drawing.Bitmap cash_money1 {
             get {
-                object obj = ResourceManager.GetObject("cash_money", resourceCulture);
+                object obj = ResourceManager.GetObject("cash-money1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cash_money2 {
+            get {
+                object obj = ResourceManager.GetObject("cash-money2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

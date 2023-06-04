@@ -86,6 +86,12 @@
     <Compile Include="Customers\frmAddOrEditCustomer.Designer.cs">
       <DependentUpon>frmAddOrEditCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="MovadianFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovadianFrm.Designer.cs">
+      <DependentUpon>MovadianFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Customers\frmAddOrEditCustomer.resx">
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Customers\frmCustomers.resx">
       <DependentUpon>frmCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovadianFrm.resx">
+      <DependentUpon>MovadianFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -174,6 +183,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\noPhoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash-money1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash-money2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash-money3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

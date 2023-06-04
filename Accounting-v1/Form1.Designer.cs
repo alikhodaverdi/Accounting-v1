@@ -33,6 +33,7 @@
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.btnCustomers = new System.Windows.Forms.ToolStripButton();
+            this.movadianBtnFrm = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -59,7 +60,8 @@
             // toolStrip2
             // 
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnCustomers});
+            this.btnCustomers,
+            this.movadianBtnFrm});
             this.toolStrip2.Location = new System.Drawing.Point(0, 25);
             this.toolStrip2.Name = "toolStrip2";
             this.toolStrip2.Size = new System.Drawing.Size(784, 38);
@@ -76,6 +78,16 @@
             this.btnCustomers.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnCustomers.Click += new System.EventHandler(this.btnCustomers_Click);
             // 
+            // movadianBtnFrm
+            // 
+            this.movadianBtnFrm.Image = global::Accounting_v1.Properties.Resources.cash_money2;
+            this.movadianBtnFrm.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.movadianBtnFrm.Name = "movadianBtnFrm";
+            this.movadianBtnFrm.Size = new System.Drawing.Size(45, 35);
+            this.movadianBtnFrm.Text = "مودیان";
+            this.movadianBtnFrm.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.movadianBtnFrm.Click += new System.EventHandler(this.movadianBtnFrm_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -89,7 +101,7 @@
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Form1";
+            this.Text = "حسابرس";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.toolStrip2.ResumeLayout(false);
@@ -105,6 +117,7 @@
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
         private System.Windows.Forms.ToolStrip toolStrip2;
         private System.Windows.Forms.ToolStripButton btnCustomers;
+        private System.Windows.Forms.ToolStripButton movadianBtnFrm;
     }
 }
 
